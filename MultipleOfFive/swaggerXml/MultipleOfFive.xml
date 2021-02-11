@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MultipleOfFive</name>
+    </assembly>
+    <members>
+        <member name="M:MultipleOfFive.Controllers.MultipleOfFiveAndThreeController.VerifyNumber(MultipleOfFive.Application.UseCase.CheckMultipleOfFive.Dto.Model)">
+             <summary>
+             This endpoint is used to check if a number is a multiple of 5 and 3
+             </summary>
+             <param name="model"></param>
+             <returns></returns>
+            <remarks>
+            Sample request:
+            
+              POST /verifyNumber 
+              {
+                 "Number": 100
+              }
+            </remarks>
+        </member>
+    </members>
+</doc>
